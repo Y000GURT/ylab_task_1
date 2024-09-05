@@ -111,7 +111,7 @@ function AuthForm() {
 
     return ( 
         <AuthFormContainer>
-            <AuthFormContent onSubmit={handleClickSubmit} noValidate onBlur={() => setErrors([])}>
+            <AuthFormContent onSubmit={handleClickSubmit} noValidate>
 
                 <Input 
                     type='email' 
